@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: rgb(0, 0, 0);
 }
 
 .number_slot {
@@ -25,8 +25,8 @@ body {
   border-radius: 50%;
   text-align: center;
   line-height: 35px;
-  background-color: black;
-  border: 2px solid white;
+  background-color: white;
+  border: 1px solid white;
 }
 
 .No_1 {
@@ -41,40 +41,32 @@ body {
   position: absolute;
   top: 40px;
   left: 60px;
-  color: cyan;
-  border-color: cyan;
-}
-
-.No_2 {
-  position: absolute;
-  top: 40px;
-  left: 60px;
-  color: cyan;
-  border-color: cyan;
+  color: blue;
+  border-color: blue;
 }
 
 .No_3 {
   position: absolute;
   top: 40px;
   left: 105px;
-  color: yellow;
-  border-color: yellow;
+  color: orange;
+  border-color: orange;
 }
 
 .No_4 {
   position: absolute;
   top: 40px;
   left: 150px;
-  color: fuchsia;
-  border-color: fuchsia;
+  color: purple;
+  border-color: purple;
 }
 
 .No_5 {
   position: absolute;
   top: 40px;
   left: 195px;
-  color: limegreen;
-  border-color: limegreen;
+  color: green;
+  border-color: green;
 }
 
 /* 攻撃側、防衛側エリアの基準位置 */
@@ -117,8 +109,8 @@ body {
 }
 
 .barricade {
-  width: 20px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 
 /* 攻撃側ガジェット位置決め */
@@ -128,7 +120,7 @@ body {
   position: absolute;
   top: 0px;
   left: 740px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
@@ -136,14 +128,14 @@ body {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .drone {
   position: absolute;
   top: 45px;
   left: 763px;
-  border: 2px solid rgb(255, 0, 0);
+  border: 3px solid red;
 }
 
 .bleaching_slot {
@@ -152,7 +144,7 @@ body {
   position: absolute;
   top: 0px;
   left: 825px;
-  border: 2px solid white;
+  border: 0px solid red;
   text-align: center;
 }
 
@@ -160,14 +152,14 @@ body {
   position: absolute;
   top: 45px;
   left: 848px;
-  border: 2px solid rgb(255, 255, 0);
+  border: 3px solid red;
 }
 
 .bleaching_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 9px;
+  font-size: 15px;
 }
 
 .claymore_slot {
@@ -176,7 +168,7 @@ body {
   position: absolute;
   top: 0px;
   left: 910px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
@@ -184,14 +176,14 @@ body {
   position: absolute;
   top: 45px;
   left: 933px;
-  border: 2px solid rgb(0, 255, 255);
+  border: 3px solid red;
 }
 
 .claymore_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .smoke_slot {
@@ -200,7 +192,7 @@ body {
   position: absolute;
   top: 0px;
   left: 995px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
@@ -208,14 +200,14 @@ body {
   position: absolute;
   top: 45px;
   left: 1018px;
-  border: 2px solid rgb(0, 255, 0);
+  border: 3px solid red;
 }
 
 .smoke_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .grenade_slot {
@@ -224,7 +216,7 @@ body {
   position: absolute;
   top: 0px;
   left: 1080px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
@@ -232,14 +224,14 @@ body {
   position: absolute;
   top: 45px;
   left: 1103px;
-  border: 2px solid rgb(0, 0, 255);
+  border: 3px solid red;
 }
 
 .grenade_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .flash_slot {
@@ -248,7 +240,7 @@ body {
   position: absolute;
   top: 0px;
   left: 1165px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
@@ -256,14 +248,14 @@ body {
   position: absolute;
   top: 45px;
   left: 1188px;
-  border: 2px solid rgb(255, 0, 255);
+  border: 3px solid red;
 }
 
 .flash_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .hardbleaching_slot {
@@ -272,7 +264,7 @@ body {
   position: absolute;
   top: 0px;
   left: 1250px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
@@ -280,14 +272,14 @@ body {
   position: absolute;
   top: 45px;
   left: 1273px;
-  border: 2px solid rgb(0, 255, 128);
+  border: 3px solid red;
 }
 
 .hardbleaching_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 9px;
+  font-size: 15px;
 }
 
 .diffuser_slot {
@@ -296,7 +288,7 @@ body {
   position: absolute;
   top: 0px;
   left: 1335px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
@@ -304,14 +296,14 @@ body {
   position: absolute;
   top: 45px;
   left: 1358px;
-  border: 2px solid rgb(255, 155, 0);
+  border: 3px solid red;
 }
 
 .diffuser_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 /* 防衛側ガジェット位置決め */
@@ -320,71 +312,71 @@ body {
   width: 70px;
   height: 90px;
   position: absolute;
-  top: -30px;
+  top: -80px;
   left: 740px;
-  border: 2px solid white;
+  border: 0px solid white;
 }
 
 .reinforcement_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .reinforcement {
   position: absolute;
-  top: 15px;
+  top: -30px;
   left: 763px;
-  border: 2px solid rgb(255, 0, 0);
+  border: 3px solid red;
 }
 
 .wire_slot {
   width: 70px;
   height: 90px;
   position: absolute;
-  top: -30px;
+  top: -80px;
   left: 825px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 .wire {
   position: absolute;
-  top: 15px;
+  top: -30px;
   left: 848px;
-  border: 2px solid rgb(255, 255, 0);
+  border: 3px solid red;
 }
 
 .wire_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .shield_slot {
   width: 70px;
   height: 90px;
   position: absolute;
-  top: -30px;
+  top: -80px;
   left: 910px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 .shield {
   position: absolute;
-  top: 15px;
+  top: -30px;
   left: 933px;
-  border: 2px solid rgb(0, 255, 255);
+  border: 3px solid red;
 }
 
 .shield_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -392,65 +384,65 @@ body {
   width: 70px;
   height: 90px;
   position: absolute;
-  top: -30px;
+  top: -80px;
   left: 995px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 .camera {
   position: absolute;
-  top: 15px;
+  top: -30px;
   left: 1018px;
-  border: 2px solid rgb(0, 255, 0);
+  border: 3px solid red;
 }
 
 .camera_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .impact_slot {
   width: 70px;
   height: 90px;
   position: absolute;
-  top: -30px;
+  top: -80px;
   left: 1080px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 .impact {
   position: absolute;
-  top: 15px;
+  top: -30px;
   left: 1103px;
-  border: 2px solid rgb(0, 0, 255);
+  border: 3px solid red;
 }
 
 .impact_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .c4_slot {
   width: 70px;
   height: 90px;
   position: absolute;
-  top: -30px;
+  top: -80px;
   left: 1165px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 .c4 {
   position: absolute;
-  top: 15px;
+  top: -30px;
   left: 1188px;
-  border: 2px solid rgb(255, 0, 255);
+  border: 3px solid red;
 }
 
 .c4_slot span {
@@ -464,72 +456,72 @@ body {
   width: 70px;
   height: 90px;
   position: absolute;
-  top: -30px;
+  top: -80px;
   left: 1250px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 .alarm {
   position: absolute;
-  top: 15px;
+  top: -30px;
   left: 1273px;
-  border: 2px solid rgb(0, 255, 128);
+  border: 3px solid red;
 }
 
 .alarm_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .barricade_slot {
   width: 70px;
   height: 90px;
   position: absolute;
-  top: -30px;
+  top: -80px;
   left: 1335px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 .barricade {
   position: absolute;
-  top: 15px;
+  top: -30px;
   left: 1360px;
-  border: 2px solid rgb(255, 155, 0);
+  border: 3px solid red;
 }
 
 .barricade_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .ovblock_slot {
-  width: 90px;
+  width: 70px;
   height: 90px;
   position: absolute;
-  top: 75px;
+  top: 20px;
   left: 740px;
-  border: 2px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 .ovblock {
   position: absolute;
-  top: 125px;
-  left: 773px;
-  border: 2px solid rgb(0, 255, 128);
+  top: 80px;
+  left: 763px;
+  border: 3px solid red;
 }
 
 .ovblock_slot span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /*.container {
@@ -560,7 +552,7 @@ body {
   width: 135px;
   background-color: #d9d9d9;
   line-height: 30px;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 0.5px;
   text-align: center;
   color: #565656;
