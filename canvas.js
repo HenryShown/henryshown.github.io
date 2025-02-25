@@ -67,11 +67,11 @@ var eraserWidth = 100;
 // 清除按钮点击时
 // 点击清除按钮时显示提示框
 function delete_canvas(){
-ret = confirm('是否擦除马克笔？');
+//ret = confirm('是否擦除马克笔？');
 // 当提示框选择“确定”时
-if (ret == true){
+//if (ret == true){
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-}
+//}
 }
 
 var pen = document.getElementById('pencil');
