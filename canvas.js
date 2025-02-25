@@ -30,8 +30,9 @@ function draw_canvas(e) {
   var x = e.clientX - rect.left;
   var y = e.clientY - rect.top;
 
-  // 获取输入框的当前值
+  // 获取输入框的当前值，仅在铅笔模式下使用
   var w = document.getElementById('width').value || 5;  // 默认宽度为 5
+
   var color = document.getElementById('color').value || '#FF0000';  // 默认颜色为红色
 
   var r = parseInt(color.substring(1, 3), 16);
@@ -41,7 +42,14 @@ function draw_canvas(e) {
   // 绘制
   ctx.lineCap = 'round';
   ctx.strokeStyle = 'rgb(' + r + ',' + g + ',' + b + ')';
-  ctx.lineWidth = w;
+  
+  // 判断当前工具并设置线宽
+  if (document.getElementById('eraser').classList.contains('active')) {
+    ctx.lineWidth = eraserWidth; // 使用橡皮擦宽度
+  } else {
+    ctx.lineWidth = w; // 铅笔宽度
+  }
+  
   ctx.beginPath();
   ctx.moveTo(before_x, before_y);
   ctx.lineTo(x, y);
@@ -53,7 +61,8 @@ function draw_canvas(e) {
   before_y = y;
 }
 
-
+// 声明橡皮擦默认宽度
+var eraserWidth = 100;
 
 // 清除按钮点击时
 // 点击清除按钮时显示提示框
