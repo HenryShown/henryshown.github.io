@@ -1461,3 +1461,10 @@ label {
   top: 278px;
   left: 190px;
 }
+
+.key_title {
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
